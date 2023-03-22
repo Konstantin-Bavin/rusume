@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html, course, css, tags, сайт-резюме" />
+    <meta name="description" content="Это мой новый проект - сайт-резюме" />
+    <title>Сайт-резюме</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img class="avatar" src="photo.jpg" alt="Мое фото" />
+        <div class="info-text">
+          <h1>Бавин Контстантин</h1>
+          <p>
+            Я
+            <strong>начальник отдела технической поддержки</strong>
+            ООО"Лаборатория ВС"
+          </p>
+          <p>Я люблю <em>играть в игры, программировать и гулять</em></p>
+          <h4>Список социальных сетей:</h4>
+          <div>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            |
+            <a href="https://telegram.org/" target="_blank">Telegram</a>
+            |
+            <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+          </div>
+        </div>
+      </div>
+      <div class="card hobby">
+        <h2>Мои хобби</h2>
+        <ol>
+          <li>Гулять</li>
+          <li>Играть в игры</li>
+          <li>Писть программы</li>
+          <li>Ходить в походы</li>
+        </ol>
+      </div>
+      <div class="card exp">
+        <h2>Опыт работы</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>АО "ЦКБА"</td>
+              <td>Инженер</td>
+              <td>2015-2018</td>
+            </tr>
+            <tr>
+              <td>ООО "Лаборатория ВС"</td>
+              <td>Инженер специальных проверок</td>
+              <td>2018-2019</td>
+            </tr>
+            <tr>
+              <td>ООО "Лаборатория ВС"</td>
+              <td>Ведуший инженер специальных проверок</td>
+              <td>2019-2022</td>
+            </tr>
+            <tr>
+              <td>ООО "Лаборатория ВС"</td>
+              <td>Начальник отдела технической поддержки</td>
+              <td>2022 - сейчас</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card contact">
+        <form class="form">
+          <h2>Связаться со мной</h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Введите имя:</label>
+              <input type="text" id="name" placeholder="Введите имя" />
+            </div>
+            <div class="form-group">
+              <label for="email">Введите email:</label>
+              <input type="email" id="email" placeholder="Введите email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="messege">Ваше сообщение:</label>
+            <textarea
+              id="messege"
+              name="messege"
+              cols="25"
+              rows="5"
+              placeholder="Введите сообщение..."
+            ></textarea>
+          </div>
+          <input class="btn" type="submit" value="Отправить!" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

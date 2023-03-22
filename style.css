@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #0f141e;
+  background: #f1f1f1;
+}
+
+a {
+  color: #86898f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: #000;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.info {
+  margin: 20px;
+}
+
+.avatar {
+  margin-right: 20px;
+  width: 250px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text {
+  display: inline-block;
+}
+
+.info-text h1 {
+  margin-bottom: 15px;
+}
+
+.info-text p {
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: bold;
+  color: #86898f;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 15px 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.hobby {  
+  background-color: #e9fee8;
+}
+
+.hobby ol {
+  padding: 0 20px;
+}
+
+.hobby ol li {
+  color: #86898F;
+  margin-bottom: 7px;
+}
+
+.hobby ol li:last-child {
+  margin-bottom: 0;
+}
+
+.exp {
+  background-color: #fae5e3;
+}
+
+.exp table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.exp table thead {
+  background: #e6a3a0;
+}
+
+.exp table thead tr th {
+  border: 1px solid #c57973;
+}
+
+.exp table tbody tr:nth-child(odd) {
+  background: #f5cbc8;
+}
+
+
+.exp table tr td {  
+  border: 1px solid #c57973;
+  padding: 5px 10px;
+}
+
+.contact {
+  background-color: #fef9de;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-row .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: calc(50% - 20px);
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group input,
+.form-group textarea {
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+@media (max-width: 510px) {
+  .info-text {
+    text-align: center;
+  }
+
+  .exp {
+    font-size: 0.7rem;
+  }
+
+  .form-row .form-group {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
